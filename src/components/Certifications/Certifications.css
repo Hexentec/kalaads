@@ -1,0 +1,26 @@
+.certifications-section {
+    padding: 5rem 0;
+    background-color: white;
+  }
+  
+  .cert-item {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  
+  .cert-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+  
+  .cert-item img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }

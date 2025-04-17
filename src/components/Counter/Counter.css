@@ -1,0 +1,27 @@
+.counter-item {
+    text-align: center;
+    color: white;
+  }
+  
+  .counter-number {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .counter-label {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  @media (max-width: 768px) {
+    .counter-number {
+      font-size: 2.5rem;
+    }
+    
+    .counter-label {
+      font-size: 1rem;
+    }
+  }

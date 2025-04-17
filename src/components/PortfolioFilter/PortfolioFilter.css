@@ -1,0 +1,32 @@
+.portfolio-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-lg);
+  }
+  
+  .filter-btn {
+    background: none;
+    border: 1px solid var(--primary-dark);
+    color: var(--primary-dark);
+    padding: var(--space-xs) var(--space-md);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .filter-btn:hover,
+  .filter-btn.active {
+    background-color: var(--primary-dark);
+    color: var(--white);
+  }
+  
+  @media (max-width: 576px) {
+    .filter-btn {
+      padding: var(--space-xs) var(--space-sm);
+      font-size: 0.8rem;
+    }
+  }
