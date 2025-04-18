@@ -14,7 +14,7 @@ const Services = () => {
         'Media buying and planning',
         'Digital and traditional media integration'
       ],
-      image: '/images/services/advertising.jpg'
+      image: '/images/'
     },
     {
       title: 'Sign Board Dealers',
