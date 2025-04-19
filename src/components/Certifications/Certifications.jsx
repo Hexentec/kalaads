@@ -2,23 +2,26 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Certifications.css';
+import cert1 from '../../assets/images/cert1.jpg';
+import cert2 from '../../assets/images/cert2.jpeg';
+import cert3 from '../../assets/images/cert3.jpeg';
 
 const Certifications = () => {
   const certifications = [
-    { id: 1, image: '/images/certifications/cert1.png', alt: 'Certification 1' },
-    { id: 2, image: '/images/certifications/cert2.png', alt: 'Certification 2' },
-    { id: 3, image: '/images/certifications/cert3.png', alt: 'Certification 3' },
-    { id: 4, image: '/images/certifications/cert4.png', alt: 'Certification 4' }
+    { id: 1, image: cert1, alt: 'Certification 1' },
+    { id: 2, image: cert2, alt: 'Certification 2' },
+    { id: 3, image: cert3, alt: 'Certification 3' },
+    { id: 4, image: cert1, alt: 'Certification 4' }
   ];
 
   const settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
+    speed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     responsive: [
       {
         breakpoint: 1024,

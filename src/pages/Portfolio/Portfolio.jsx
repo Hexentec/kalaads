@@ -2,6 +2,10 @@ import { useState } from 'react';
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
 import PortfolioFilter from '../../components/PortfolioFilter/PortfolioFilter';
 import PortfolioItem from '../../components/PortfolioItem/PortfolioItem';
+import port1 from '../../assets/images/port1.jpg';
+import port2 from '../../assets/images/port2.jpg';
+import port3 from '../../assets/images/port3.jpg';
+
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -12,56 +16,56 @@ const Portfolio = () => {
       id: 1,
       title: 'Retail Brand Campaign',
       category: 'advertising',
-      image: '/images/portfolio/retail-campaign.jpg',
+      image: port1,
       client: 'Major Retail Chain'
     },
     {
       id: 2,
       title: 'LED Sign Board Installation',
       category: 'led',
-      image: '/images/portfolio/led-sign.jpg',
+      image: port2,
       client: 'Corporate Office Park'
     },
     {
         id: 3,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port3,
         client: 'Major Retail Chain'
       },
       {
         id: 4,
         title: 'LED Sign Board Installation',
         category: 'led',
-        image: '/images/portfolio/led-sign.jpg',
+        image: port3,
         client: 'Corporate Office Park'
       },
       {
         id: 5,
         title: 'Retail Brand Campaign',
         category: 'outdoor',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port2,
         client: 'Major Retail Chain'
       },
       {
         id: 6,
         title: 'LED Sign Board Installation',
         category: 'signage',
-        image: '/images/portfolio/led-sign.jpg',
+        image: port1,
         client: 'Corporate Office Park'
       },
       {
         id: 7,
         title: 'Retail Brand Campaign',
         category: 'outdoor',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port2,
         client: 'Major Retail Chain'
       },
       {
         id: 8,
         title: 'LED Sign Board Installation',
         category: 'signage',
-        image: '/images/portfolio/led-sign.jpg',
+        image: port3,
         client: 'Corporate Office Park'
       },
     

@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import port1 from '../../assets/images/port1.jpg';
+import port2 from '../../assets/images/port2.jpg';
+import port3 from '../../assets/images/port3.jpg';
 import './PortfolioGrid.css';
 
 const PortfolioGrid = ({ limit }) => {
@@ -7,42 +10,42 @@ const PortfolioGrid = ({ limit }) => {
       id: 1,
       title: 'Retail Brand Campaign',
       category: 'advertising',
-      image: '/images/portfolio/retail-campaign.jpg',
+      image: port1,
       client: 'Major Retail Chain'
     },
     {
         id: 2,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port2,
         client: 'Major Retail Chain'
       },
       {
         id: 3,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port3,
         client: 'Major Retail Chain'
       },
       {
         id: 4,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port3,
         client: 'Major Retail Chain'
       },
       {
         id: 5,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port2,
         client: 'Major Retail Chain'
       },
       {
         id: 6,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: '/images/portfolio/retail-campaign.jpg',
+        image: port1,
         client: 'Major Retail Chain'
       },
  

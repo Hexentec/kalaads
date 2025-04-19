@@ -32,12 +32,12 @@ const Home = () => {
   const heroSettings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
-    arrows: false,
+    autoplaySpeed: 6000,
+    arrows: true,
     fade: true
   };
 
@@ -101,20 +101,9 @@ const Home = () => {
     }
   ];
 
-  const certifications = [
-    { id: 1, image: '/images/certifications/cert1.png', alt: 'Certification 1' },
-    { id: 2, image: '/images/certifications/cert2.png', alt: 'Certification 2' },
-    { id: 3, image: '/images/certifications/cert3.png', alt: 'Certification 3' },
-    { id: 4, image: '/images/certifications/cert4.png', alt: 'Certification 4' }
-  ];
+ 
 
-  const clients = [
-    { id: 1, logo: '/images/clients/client1.png', name: 'Client 1' },
-    { id: 2, logo: '/images/clients/client2.png', name: 'Client 2' },
-    { id: 3, logo: '/images/clients/client3.png', name: 'Client 3' },
-    { id: 4, logo: '/images/clients/client4.png', name: 'Client 4' },
-    { id: 5, logo: '/images/clients/client5.png', name: 'Client 5' }
-  ];
+ 
 
   return (
     <div className="home-page">

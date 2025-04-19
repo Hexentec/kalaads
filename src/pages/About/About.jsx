@@ -1,6 +1,7 @@
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
 import Clients from '../../components/Clients/Clients';
 import TeamMember from '../../components/TeamMember/TeamMember';
+import aboutimage from '../../assets/images/about-image.jpg';
 import './About.css';
 
 const About = () => {
@@ -45,7 +46,7 @@ const About = () => {
             <p>Over the course of its journey, this business has established a firm foothold in it's industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day.</p>
           </div>
           <div className="history-image">
-            <img src="/images/about/old-office.jpg" alt="KalaAds early days" />
+            <img src={aboutimage} alt="KalaAds early days" />
           </div>
         </div>
       </section>
@@ -66,7 +67,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="team-section">
+ {/*   <section className="team-section">
         <div className="container">
           <h2>Meet Our Team</h2>
           <div className="team-grid">
@@ -75,7 +76,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}   
 
       
             <Clients />

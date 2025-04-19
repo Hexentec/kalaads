@@ -1,15 +1,20 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import client1 from '../../assets/images/client1.png';
+import client2 from '../../assets/images/client2.png';
+import client3 from '../../assets/images/client3.png';
+import client4 from '../../assets/images/client4.png';
+import client5 from '../../assets/images/client5.png';
 import './Clients.css';
 
 const Clients = () => {
   const clients = [
-    { id: 1, logo: '/images/clients/client1.png', name: 'Client 1' },
-    { id: 2, logo: '/images/clients/client2.png', name: 'Client 2' },
-    { id: 3, logo: '/images/clients/client3.png', name: 'Client 3' },
-    { id: 4, logo: '/images/clients/client4.png', name: 'Client 4' },
-    { id: 5, logo: '/images/clients/client5.png', name: 'Client 5' }
+    { id: 1, logo: client1, name: 'Client 1' },
+    { id: 2, logo: client2, name: 'Client 2' },
+    { id: 3, logo: client3, name: 'Client 3' },
+    { id: 4, logo: client4, name: 'Client 4' },
+    { id: 5, logo: client5, name: 'Client 5' }
   ];
 
   const settings = {
