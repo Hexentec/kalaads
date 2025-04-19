@@ -8,6 +8,7 @@ import Testimonials from '../../components/Testimonials/Testimonials';
 import PortfolioGrid from '../../components/PortfolioGrid/PortfolioGrid';
 import Chatbot from '../../components/Chatbot/Chatbot';
 import './Home.css';
+import aboutimage from '../../assets/images/about-image.jpg';
 import Clients from '../../components/Clients/Clients';
 import Certifications from '../../components/Certifications/Certifications';
 
@@ -170,7 +171,7 @@ const Home = () => {
               </div>
             </div>
             <div className="about-image">
-              <img src="/images/about/about-image.jpg" alt="KalaAds Office" />
+              <img src={aboutimage} alt="KalaAds Office" />
             </div>
           </div>
         </div>
