@@ -26,7 +26,7 @@ import port21 from '../../assets/images/port21.jpg';
 import port22 from '../../assets/images/port22.jpg';
 import port23 from '../../assets/images/port23.jpg';
 import port24 from '../../assets/images/port24.jpg';
-import port25 from '../../assets/images/port25.jpg';
+import port25 from '../../assets/images/Port25.jpg';
 
 
 
