@@ -1,11 +1,11 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import client1 from '../../assets/images/client1.png';
-import client2 from '../../assets/images/client2.png';
-import client3 from '../../assets/images/client3.png';
-import client4 from '../../assets/images/client4.png';
-import client5 from '../../assets/images/client5.png';
+import client1 from '../../assets/images/client1.jpg';
+import client2 from '../../assets/images/client2.jpg';
+import client3 from '../../assets/images/client3.jpg';
+import client4 from '../../assets/images/client4.jpg';
+import client5 from '../../assets/images/client5.jpg';
 import './Clients.css';
 
 const Clients = () => {

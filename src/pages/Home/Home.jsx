@@ -80,25 +80,27 @@ const Home = () => {
 
   const services = [
     {
-      title: 'Advertising Agencies',
-      icon: FaBullhorn,
-      description: 'Creative campaigns that make your brand stand out'
+      title: 'LED Sign Boards',
+      icon: FaLightbulb,
+      description: 'Modern LED displays for maximum visibility'
     },
+    
     {
       title: 'Sign Board Dealers',
       icon: FaSign,
       description: 'High-quality signage solutions for all business needs'
     },
-    {
-      title: 'LED Sign Boards',
-      icon: FaLightbulb,
-      description: 'Modern LED displays for maximum visibility'
-    },
+    
     {
       title: 'Outdoor Advertising',
       icon: FaChartLine,
       description: 'Strategically placed ads for maximum impact'
-    }
+    },
+    {
+      title: 'Advertising Agencies',
+      icon: FaBullhorn,
+      description: 'Creative campaigns that make your brand stand out'
+    },
   ];
 
  
@@ -108,43 +110,47 @@ const Home = () => {
   return (
     <div className="home-page">
       {/* Hero Carousel */}
-      <section className="hero-carousel">
-        <Slider {...heroSettings}>
-          <div className="hero-slide slide-1">
-            <div className="slide-content">
-              <h1>Creative Advertising Since 1999</h1>
-              <p>Innovative solutions for your brand's growth</p>
-              <button className="cta-button">Get a Free Consultation</button>
-            </div>
-          </div>
-          <div className="hero-slide slide-2">
-            <div className="slide-content">
-              <h1>Premium Signage Solutions</h1>
-              <p>High-quality boards that make your business stand out</p>
-              <button className="cta-button">View Our Work</button>
-            </div>
-          </div>
-          <div className="hero-slide slide-3">
-            <div className="slide-content contact-form-slide">
-              <h2>Ready to Start Your Project?</h2>
-              <form className="hero-contact-form">
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <input type="tel" placeholder="Phone Number" />
-                <textarea placeholder="Tell us about your project"></textarea>
-                <button type="submit" className="submit-btn">Send Message</button>
-              </form>
-            </div>
-          </div>
-        </Slider>
-      </section>
+<section className="hero-carousel">
+<div className="experience-badge-circle">
+    <div className="years">25+</div>
+    <div className="text">Years Experience</div>
+  </div>
+  <Slider {...heroSettings}>
+    <div className="hero-slide slide-1">
+      <div className="slide-content">
+        <h1>Creative Advertising Since 1999</h1>
+        <p>Innovative solutions for your brand's growth</p>
+        <button className="cta-button">Get a Free Consultation</button>
+      </div>
+    </div>
+    <div className="hero-slide slide-2">
+      <div className="slide-content">
+        <h1>Premium Signage Solutions</h1>
+        <p>High-quality boards that make your business stand out</p>
+        <button className="cta-button">View Our Work</button>
+      </div>
+    </div>
+    <div className="hero-slide slide-3">
+      <div className="slide-content contact-form-slide">
+        <h2>Ready to Start Your Project?</h2>
+        <form className="hero-contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="tel" placeholder="Phone Number" />
+          <textarea placeholder="Tell us about your project"></textarea>
+          <button type="submit" className="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </Slider>
+</section>
 
       {/* About Section */}
       <section className="about-section">
         <div className="container">
           <div className="about-content">
             <div className="about-text">
-              <h2>About KalaAds</h2>
+              <h2>About Kala Ads</h2>
               <p>Established in 1999, Kala Ads in Daba Gardens, Visakhapatnam is a top player in the category of Advertising Agencies in the Visakhapatnam region.</p>
               <p>Over the years, we've established a firm foothold in the industry through our commitment to customer satisfaction and innovative solutions.</p>
               

@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom';
 import port1 from '../../assets/images/port1.jpg';
 import port2 from '../../assets/images/port2.jpg';
 import port3 from '../../assets/images/port3.jpg';
+import port22 from '../../assets/images/port22.jpg';
+import port23 from '../../assets/images/port23.jpg';
+import port24 from '../../assets/images/port24.jpg';
 import './PortfolioGrid.css';
 
 const PortfolioGrid = ({ limit }) => {
@@ -31,21 +34,21 @@ const PortfolioGrid = ({ limit }) => {
         id: 4,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: port3,
+        image: port24,
         client: 'Major Retail Chain'
       },
       {
         id: 5,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: port2,
+        image: port22,
         client: 'Major Retail Chain'
       },
       {
         id: 6,
         title: 'Retail Brand Campaign',
         category: 'advertising',
-        image: port1,
+        image: port23,
         client: 'Major Retail Chain'
       },
  

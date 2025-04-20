@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer-grid">
             <div className="footer-about">
-              <h3>KalaAds</h3>
+              <h3>Kala Ads</h3>
               <p>Established in 1999, Kala Ads is a premier advertising agency in Visakhapatnam providing innovative solutions for businesses of all sizes.</p>
               <div className="social-links">
                 <a href="#"><FaFacebook /></a>
